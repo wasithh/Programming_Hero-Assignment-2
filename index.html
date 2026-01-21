@@ -42,7 +42,7 @@
   <body class="text-white tracking-wider">
     <header id="navbar" class="bg-[#1A0B2E] w-full top-0 left-0 z-50">
       <nav
-        class="container mx-auto flex items-center justify-between h-16 px-[20px] sm:px-[100px]"
+        class="container mx-auto flex items-center justify-between h-16 px-[20px] sm:px-[100px] p-[40px]"
       >
         <div class="flex-1 flex justify-start">
           <h1 class="text-4xl font-bold lg:text-4xl lg:pl-[20px]">
@@ -92,7 +92,7 @@
           </a>
         </div>
       </nav>
-      <div class="border-b"></div>
+      <div class="border-b border-b-purple-600"></div>
     </header>
     <main
       class="min-h-[80vh] pt-[121px] flex-col items-center justify-center text-center bg-[url('./assets/hero-bg.png')] bg-[length:100%_100%] lg:bg-cover bg-center bg-no-repeat"
@@ -112,7 +112,7 @@
             class="absolute inset-0 m-auto w-24 sm:w-48 z-10"
           />
           <span
-            class="absolute top-5 right-12 bg-[#00FF85] text-black text-xs font-bold px-3 py-1 rounded z-20"
+            class="absolute top-5 sm:top-5 right-0 sm:right-12 bg-[#00FF85] text-black text-xs font-bold px-3 py-1 rounded z-20"
           >
             NEW
           </span>
@@ -382,6 +382,142 @@
         </div>
       </div>
     </section>
-    <section></section>
+    <section class="bg-[#130c25] py-20 px-6 sm:px-20">
+      <h2
+        class="text-3xl sm:text-5xl font-bold text-center text-white mb-12 sm:mb-16"
+      >
+        Meet The Host
+      </h2>
+
+      <div
+        class="max-w-5xl mx-auto bg-[#1E1635] rounded-[2.5rem] p-8 sm:p-12 flex flex-col sm:flex-row items-center gap-8 sm:gap-16 border border-white/5 shadow-2xl"
+      >
+        <div class="">
+          <div
+            class="w-48 h-48 sm:w-64 sm:h-64 rounded-full overflow-hidden border-4 border-[#2d2445]"
+          >
+            <img
+              src="./assets/host.png"
+              alt="Alex Kumar"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+
+        <div class="text-center sm:text-left">
+          <h3 class="text-3xl sm:text-4xl font-bold text-white mb-4">
+            Alex Kumar
+          </h3>
+
+          <p class="text-gray-400 mb-8 text-sm sm:text-base sm:max-w-2xl">
+            Tech entrepreneur, productivity expert, and lifelong learner. Alex
+            has been in the tech industry for over 10 years, working with
+            startups and Fortune 500 companies. Through TechWave, Alex shares
+            insights from industry leaders and practical advice for anyone
+            looking to grow in tech.
+          </p>
+
+          <div class="flex items-center justify-center sm:justify-start gap-4">
+            <a
+              href="#"
+              class="w-10 h-10 rounded-full border border-purple-500/30 flex items-center justify-center"
+            >
+              <img src="./assets/linkedin.png" alt="" />
+            </a>
+
+            <a
+              href="#"
+              class="w-10 h-10 rounded-full border border-purple-500/30 flex items-center justify-center"
+            >
+              <img src="./assets/twitter.png" alt="" />
+            </a>
+
+            <a
+              href="#"
+              class="w-10 h-10 rounded-full border border-purple-500/30 flex items-center justify-center"
+            >
+              <img src="./assets/instagram.png" alt="" />
+            </a>
+
+            <a
+              href="#"
+              class="w-10 h-10 rounded-full border border-purple-500/30 flex items-center justify-center"
+            >
+              <img src="./assets/youtube.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="relative bg-[#130c25] text-white pt-20 pb-10">
+      <div
+        class="absolute inset-0 bg-[url('./assets/footer-bg.png')] bg-cover bg-center"
+      ></div>
+
+      <div class="relative max-w-7xl mx-auto px-6 flex flex-col items-center">
+        <a href="#" class="text-4xl sm:text-5xl font-bold mb-10">
+          Tech<span
+            class="bg-gradient-to-r from-fuchsia-500 to-purple-600 bg-clip-text text-transparent"
+            >Wave</span
+          >
+        </a>
+
+        <div
+          class="grid grid-cols-2 sm:flex items-center gap-y-6 gap-x-12 sm:gap-12 mb-12 text-gray-300 font-medium text-sm"
+        >
+          <a
+            href="#"
+            class="flex items-center gap-3 hover:text-white transition-colors group"
+          >
+            <img
+              src="./assets/spotify.png"
+              alt="Spotify"
+              class="w-6 h-6 brightness-0 invert group-hover:opacity-100 transition-opacity"
+            />
+            <span>Spotify</span>
+          </a>
+
+          <a
+            href="#"
+            class="flex items-center gap-3 hover:text-white transition-colors group"
+          >
+            <img
+              src="./assets/apple-podcast.png"
+              alt="Apple Podcasts"
+              class="w-6 h-6 brightness-0 invert group-hover:opacity-100 transition-opacity"
+            />
+            <span>Apple Podcasts</span>
+          </a>
+
+          <a
+            href="#"
+            class="flex items-center gap-3 hover:text-white transition-colors group"
+          >
+            <img
+              src="./assets/youtube.png"
+              alt="YouTube"
+              class="w-6 h-6 brightness-0 invert group-hover:opacity-100 transition-opacity"
+            />
+            <span>YouTube</span>
+          </a>
+
+          <a
+            href="#"
+            class="flex items-center gap-3 hover:text-white transition-colors group"
+          >
+            <img
+              src="./assets/twitter.png"
+              alt="Twitter"
+              class="w-6 h-6 brightness-0 invert group-hover:opacity-100 transition-opacity"
+            />
+            <span>Twitter</span>
+          </a>
+        </div>
+
+        <p class="text-gray-500 text-xs sm:text-sm text-center">
+          &copy; 2026 TechWave Podcast. All rights reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
